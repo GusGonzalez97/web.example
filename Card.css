@@ -1,0 +1,46 @@
+.card-cafe{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),URL("../imagen/Café\ gelado\ com\ sorvete.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.card-comida{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),URL("../imagen/pexels-ella-olsson-3026804.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-local{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),URL("../imagen/pexels-jaymantri-2755.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-comida:hover{
+    transition: 1.5s all ease;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),URL("../imagen/pexels-ella-olsson-3026804.jpg");
+}
+.card-local:hover{
+    transition: 1.5s all ease;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),URL("../imagen/pexels-jaymantri-2755.jpg");
+}
+.card-cafe:hover{
+    transition: 1.5s all ease;
+    background-image:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),URL("../imagen/Café\ gelado\ com\ sorvete.jpg");
+}

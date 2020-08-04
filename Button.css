@@ -1,0 +1,17 @@
+.btn-ghost{
+    color:white;
+    height: 100px;
+    font-size: 30px;
+}
+.btn-ghost:hover{
+    color: white;
+}
+.btn-gus{
+    color: white;
+    font-size: 25px;
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),transparent;
+    width: 150px;
+}
+.btn-gus:hover{
+    color:white;
+}
